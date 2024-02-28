@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="UIscript.js">
+    
+</head>
+
+<body>
+        <div class="navbar">
+            <h2>Navbar</h2>
+            <ul class="nav-list">
+                <li class="list-content"><a href="#" class="list-content1" >Dashboard</a></li>
+                <li class="list-content"><a href="#" class="list-content1">About</a></li>
+                <li class="dropdown list-content">
+                    <a href="#" class="dropbtn">Dropdown</a>
+                    <div class="dropdown-content">
+                        <a href="#">Angularjs</a>
+                        <a href="#">reactjs</a>
+                        <a href="#">JS</a>
+                    </div>
+                </li> 
+            </ul>
+        </div>
+        <div class="main">
+        <div class="sidebar">
+            <h2 class="sidebar-head">Sidebar</h2>
+            <ul>
+                <li class="list-content"><a href="#" class="list-content1">Home</a></li>
+                <li class="list-content"><a href="#" class="list-content1">About-Us</a></li>
+                <li class="list-content"><a href="#" class="list-content1">Contact-Us</a></li>
+                <li class="list-content"><a href="#" class="list-content1">menu</a></li>
+                <li class="dropdown list-content">
+                    <a href="#" class="dropbtn">Dropdown</a>
+                    <div class="dropdown-content list-content1">
+                        <a href="#">Menu</a>
+                        <a href="#">Tools</a>
+                        <a href="#">Settings</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="box">
+                <h2>Dashboard</h2>
+                <p>This is the content of Dashboard.</p>
+                <div class="dash-btn">
+                    <button class="btn-dash">submit</button>
+                </div>
+            </div>
+            <div class="box">
+                <h2>About-Us</h2>
+                <p>This is the content of About-us.</p>
+                <div class="dash-btn">
+                    <button class="btn-dash1">submit</button>
+                </div>
+            </div>
+            <div class="box">
+                <h2>Menu</h2>
+                <p>This is the content of Menu button.</p>
+                <div class="dash-btn">
+                    <button class="btn-dash2">submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <h2>settings</h2>
+                <p>This is the content of Settings.</p>
+            </div>
+            <div class="box">
+                <h2>Tools</h2>
+                <p>This is the content of Tools.</p>
+            </div>
+            <div class="box">
+                <h2>Contact-us</h2>
+                <p>This is the content of Contact-us.</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="box">
+                <h2>Dashboard</h2>
+                <p>This is the content of Dashboard.</p>
+            </div>
+            <div class="box">
+                <h2>About-Us</h2>
+                <p>This is the content of About-us.</p>
+            </div>
+            <div class="box">
+                <h2>Menu</h2>
+                <p>This is the content of Menu.</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+            <div class="tabs">
+                <button class="tablinks" id="tab1" onclick="openTab('person1')">Person 1</button>
+                <button class="tablinks" id="tab2" onclick="openTab('person1')">Person 2</button>
+                <button class="tablinks" id="tab3" onclick="openTab('person3')">Person 3</button>
+            </div>
+            <div id="person1" class="tabcontent">
+                <h2>Person 1 Details</h2>
+                <p>Name: John Doe</p>
+                <p>Age: 30</p>
+                <p>Occupation: Engineer</p>
+            </div>
+            <div id="person2" class="tabcontent">
+                <h2>Person 2 Details</h2>
+                <p>Name: Jane Smith</p>
+                <p>Age: 25</p>
+                <p>Occupation: Doctor</p>
+            </div>
+            <div id="person3" class="tabcontent">
+                <h2>Person 3 Details</h2>
+                <p>Name: Bob Johnson</p>
+                <p>Age: 40</p>
+                <p>Occupation: Teacher</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
